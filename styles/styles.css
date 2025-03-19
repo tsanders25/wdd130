@@ -12,7 +12,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
     padding: var(--padding);
 }
