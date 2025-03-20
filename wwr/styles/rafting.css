@@ -1,0 +1,54 @@
+:root {
+    --heading-text-color: #DA413B;
+    --heading-text-color: white;
+    --paragraph-text-color: #2E2C2D;
+    --heading-font: ;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+body {
+    background-color: ;
+}
+
+header {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    text-decoration-line: ;
+}
+
+nav {}
+
+h1 {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--heading-text-color);
+}
+
+h2 {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--heading-text-color)
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    color: var(--paragraph-text-color);
+}
+
+.social {
+    text-decoration: none;
+}
+
+primary-color=#DA413B secondary-color=#77CAEF accent1-color=#2E2C2D accent2-color=#DBEFF8 https: //coolors.co/da413b-070707-77caef-2e2c2d-dbeff8
