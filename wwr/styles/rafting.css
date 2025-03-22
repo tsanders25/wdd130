@@ -11,7 +11,6 @@ body {
 
 header {
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -72,7 +71,6 @@ h2 {
 
 p {
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -83,4 +81,3 @@ p {
 #social {
     text-decoration: none;
 }
-
