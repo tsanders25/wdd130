@@ -1,12 +1,12 @@
 :root {
-    --heading-text-color: white;
+    --heading-text-color: #b43530;
     --paragraph-text-color: #2E2C2D;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
 body {
-    background-color: #77CAEF;
+    background-color: #77c9ef74;
 }
 
 header {
