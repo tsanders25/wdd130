@@ -15,6 +15,28 @@ header {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    place-items: center;
+
+
+}
+
+.navigation {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: var(--heading-text-color);
+
+    padding: 20px;
+    border: var(--border);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
 }
 
 h1 {
@@ -60,14 +82,43 @@ article img {
 
 }
 
-h2 {
+.history {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 10px;
+
+}
+
+
+.history_heading {
     font-family: "Bangers", system-ui;
     font-weight: 400;
     font-style: normal;
     color: var(--heading-text-color);
     clear: both;
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+
 }
 
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.adventure_heading {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--heading-text-color);
+
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
 
 p {
     font-family: "Roboto", sans-serif;
@@ -78,6 +129,14 @@ p {
     color: var(--paragraph-text-color);
 }
 
+footer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 #social {
     text-decoration: none;
+
+
 }
