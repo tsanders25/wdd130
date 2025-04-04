@@ -108,6 +108,7 @@ footer {
     margin: .5rem 0;
 }
 
+
 .column2 {
     grid-template-columns: 1fr 2fr;
     margin: .5rem 0;
