@@ -5,12 +5,21 @@
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
+body {}
+
 body {
-    background-color: #77c9ef74;
+    background-image: linear-gradient(#5de0e6, #004aad);
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    font-family: "Big Shoulders";
+    
 }
 
 header {
-    font-family: "Roboto", sans-serif;
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -20,6 +29,7 @@ header {
     grid-template-columns: 2fr 4fr;
     place-items: center;
 
+    
 
 }
 
@@ -61,7 +71,7 @@ h1 {
     margin: 10px;
 }
 
-article {
+.about_article {
     position: absolute;
     bottom: 25px;
     right: 25px;
@@ -149,7 +159,7 @@ footer {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    color: var(--paragraph-text-color); 
+    color: var(--paragraph-text-color);
 }
 
 form {
@@ -188,7 +198,7 @@ button:hover {
 .form-item {
     display: grid;
     align-items: center;
-    
+
 }
 
 .column1 {
@@ -226,6 +236,105 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:
-    
+
 }
 
+/* home.html css */
+.home_herodiv {
+position: relative;
+}
+
+#home_overlay {
+    font-family: "Big Shoulders", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+
+    position: absolute;
+}
+
+.home_section_1 {
+    font-family: "Big Shoulders", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 25px;
+
+}
+
+.home_section_2 {
+    font-family: "Big Shoulders", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 25px;
+}
+
+/* trips.html css */
+
+.trips_section_1 {
+    font-family: "Big Shoulders", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 25px;
+}
+
+
+.trips_section_2 {
+    font-family: "Big Shoulders", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 25px;
+}
+
+.trips_section_3 {
+    font-family: "Big Shoulders", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin: 25px;
+}
+
+
+.trips_section_4 {
+    font-family: "Big Shoulders", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+ 
+    margin: 25px;
+    border: #fff;
+
+}
