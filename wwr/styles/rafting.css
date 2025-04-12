@@ -31,7 +31,7 @@ header {
     grid-template-columns: 2fr 4fr;
     place-items: center;
 
-    background-image: black;
+    background: black;
     
 
 }
