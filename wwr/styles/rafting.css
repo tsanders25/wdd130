@@ -5,11 +5,12 @@
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
-body {}
-
 body {
-    background-image: linear-gradient(#5de0e6, #004aad);
+    background-image: linear-gradient(black, teal);
 }
+
+
+/* header */
 
 .logo {
     display: flex;
@@ -29,16 +30,17 @@ header {
     grid-template-columns: 2fr 4fr;
     place-items: center;
 
+    background-image: linear-gradient(black);
     
 
 }
 
 .navigation {
-    font-family: "Bangers", system-ui;
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
-    color: var(--heading-text-color);
+    color: white;
 
     padding: 20px;
     border: var(--border);
@@ -47,19 +49,47 @@ header {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-around;
+
+    text-decoration: none;
 }
 
-h1 {
-    font-family: "Bangers", system-ui;
+/* footer */
+
+p {
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
-    color: var(--heading-text-color);
+    font-size: x-large;
+    font-variation-settings:
+        "wdth" 100;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#social {
+    text-decoration: none;
+
+
+}
+
+/* about.html css */
+
+h1 {
+    font-family: "Big Shoulders";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
     position: absolute;
     top: 25px;
     left: 25px;
 }
 
-.herodiv {
+.about_section_1 {
     margin: auto;
     position: relative;
 }
@@ -84,29 +114,34 @@ article img {
 }
 
 #overlay {
-    font-family: "Bangers", system-ui;
-    font-weight: 400;
+    font-family: "Big Shoulders";
+    font-weight: 600;
     font-style: normal;
     font-size: xx-large;
-    color: #2E2C2D;
-
+    color: white;
+    background-color: black;
+    border: black 10px;
+    padding: 10px;
 }
 
-.history {
+/* How to center a heading/img in a grid box? */
+
+.about_section_2 {
     display: grid;
 
     grid-template-columns: 1fr 1fr 1fr;
-
+    gap: 10px;
     padding: 10px;
 
 }
 
 
 .history_heading {
-    font-family: "Bangers", system-ui;
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
-    color: var(--heading-text-color);
+    font-size: xx-large;
+    color: white;
     clear: both;
 
     grid-column-start: 2;
@@ -114,45 +149,62 @@ article img {
 
 }
 
-.adventure {
+.about_section_3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
+    gap: 10px;
 }
 
 .adventure_heading {
-    font-family: "Bangers", system-ui;
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
-    color: var(--heading-text-color);
+    font-size: xx-large;
+    color: white;
 
     grid-column-start: 3;
     grid-column-end: 6;
 }
 
-p {
-    font-family: "Roboto", sans-serif;
+figcaption {
+    font-family: "Big Shoulders";
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+}
+/* contact page */
+
+
+
+.contact_information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#contact_header {
+    font-family: "Big Shoulders";
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+}
+
+
+.employees {
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    color: var(--paragraph-text-color);
-}
+    color: white;
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-
-}
-
-#social {
-    text-decoration: none;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 
 }
-
-/* contact page */
-
 .form {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -160,6 +212,7 @@ footer {
     font-variation-settings:
         "wdth" 100;
     color: var(--paragraph-text-color);
+
 }
 
 form {
@@ -213,31 +266,6 @@ button:hover {
 }
 
 
-.contact_information {
-    position: relative;
-}
-
-h3 {
-    font-family: "Bangers", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: xx-large;
-    color: var(--heading-text-color);
-}
-
-.employees {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-    color: var(--paragraph-text-color);
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:
-
-}
 
 /* home.html css */
 .home_herodiv {
