@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: left;
     font-family: "Big Shoulders";
+    gap: 10px;
     
 }
 
@@ -79,10 +80,11 @@ footer {
 
 /* about.html css */
 
-h1 {
+.about_header {
     font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
+    font-size: xx-large;
     color: white;
     position: absolute;
     top: 25px;
@@ -173,13 +175,13 @@ figcaption {
     font-size: xx-large;
     color: white;
 }
+
 /* contact page */
-
-
 
 .contact_information {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 
@@ -202,7 +204,7 @@ figcaption {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    gap: 10px;
 
 }
 .form {
@@ -312,7 +314,7 @@ position: relative;
 /* trips.html css */
 
 .trips_section_1 {
-    font-family: "Big Shoulders", system-ui;
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
@@ -320,13 +322,14 @@ position: relative;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 
     margin: 25px;
 }
 
 
 .trips_section_2 {
-    font-family: "Big Shoulders", system-ui;
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
@@ -334,12 +337,13 @@ position: relative;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 
     margin: 25px;
 }
 
 .trips_section_3 {
-    font-family: "Big Shoulders", system-ui;
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
@@ -347,13 +351,14 @@ position: relative;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
 
     margin: 25px;
 }
 
 
 .trips_section_4 {
-    font-family: "Big Shoulders", system-ui;
+    font-family: "Big Shoulders";
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
@@ -361,7 +366,8 @@ position: relative;
 
     display: grid;
     grid-template-rows: 1fr 1fr;
- 
+    gap: 10px;
+    
     margin: 25px;
     border: #fff;
 
